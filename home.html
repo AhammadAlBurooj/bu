@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        .navdiv {
+
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        }
+
+        .topBar {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            height: 50px;
+        }
+
+        .imagelogo {
+            margin-right: 230px;
+            margin-left: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .mainimg {
+            float: left;
+            float: right;
+            position: relative;
+        }
+
+        .textDiv {
+            position: absolute;
+            top: 90px;
+            left: 200px;
+            font-size: 25px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+        .secondpara1
+        {
+            font-size: medium;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .firstpara{
+            font-size: small;
+            margin-left: 10px;
+            margin-bottom: -20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgba(166, 98, 168, 0.884);
+            opacity: .7;
+            border-radius: 50px;
+            width: 350px;
+            height: 20px;
+        }
+        .centertext{
+        margin-left: 450px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 700px;
+            
+
+        }
+        .news{
+            background-color: rgb(194, 194, 204) ;
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            /* display: flex;
+            align-items: top;
+            justify-content: center;
+            margin-top: 50px; */
+
+        }
+        .news a{
+            width: 200px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .news img{
+            margin-top: -70px;
+        }
+
+        .news:hover{
+            background-color: rgb(55, 156, 109);
+        }
+
+        .husna{
+            background-color: rgb(194, 194, 204) ;
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            /* display: flex;
+            align-items: top;
+            justify-content: center;
+            margin-top: 50px; */
+
+        }
+        .husna a{
+            width: 200px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .husna img{
+            margin-top: -70px;
+        }
+
+        .husna:hover{
+            background-color: rgb(55, 156, 109);
+        }
+        .events{
+            background-color: rgb(194, 194, 204) ;
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            /* display: flex;
+            align-items: top;
+            justify-content: center;
+            margin-top: 50px; */
+
+        }
+        .events a{
+            width: 200px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .events img{
+            margin-top: -70px;
+        }
+
+        .events:hover{
+            background-color: rgb(55, 156, 109);
+        }
+        .donation{
+            background-color: rgb(194, 194, 204) ;
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            /* display: flex;
+            align-items: top;
+            justify-content: center;
+            margin-top: 50px; */
+
+        }
+        .donation a{
+            width: 200px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .donation img{
+            margin-top: -70px;
+        }
+
+        .donation:hover{
+            background-color: rgb(55, 156, 109);
+        }
+        .social{
+            background-color: rgb(194, 194, 204) ;
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            /* display: flex;
+            align-items: top;
+            justify-content: center;
+            margin-top: 50px; */
+
+        }
+        .social a{
+            width: 200px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .social img{
+            margin-top: -70px;
+        }
+
+        .social:hover{
+            background-color: rgb(55, 156, 109);
+        }
+        .organic{
+            background-color: rgb(194, 194, 204) ;
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            /* display: flex;
+            align-items: top;
+            justify-content: center;
+            margin-top: 50px; */
+
+        }
+        .organic a{
+            width: 200px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .organic img{
+            margin-top: -70px;
+        }
+
+        .organic:hover{
+            background-color: rgb(55, 156, 109);
+        }
+        .islamic{
+            background-color: rgb(194, 194, 204) ;
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            /* display: flex;
+            align-items: top;
+            justify-content: center;
+            margin-top: 50px; */
+
+        }
+        .islamic a{
+            width: 200px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .islamic img{
+            margin-top: -70px;
+        }
+
+        .islamic:hover{
+            background-color: rgb(55, 156, 109);
+        }
+        .library{
+            background-color: rgb(194, 194, 204) ;
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            /* display: flex;
+            align-items: top;
+            justify-content: center;
+            margin-top: 50px; */
+
+        }
+        .library a{
+            width: 200px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .library img{
+            margin-top: -70px;
+        }
+
+        .library:hover{
+            background-color: rgb(55, 156, 109);
+        }
+        .bottomcard{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .bottomcard1{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 60px;
+        }
+    
+    
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="topBar">
+        <div class="imagelogo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQweElwZ7SP3sF9tVTY0M88FUhvcx-Y1QdVPw&s"
+                alt="image" style="width: 50px;;height: 50px;;">
+        </div>
+
+        <div class="navdiv">
+            <h4><a href='./home1.html'>Home</a></h4>
+            <h4><a href='./home.html'>About us</a></h4>
+            <h4><a href='./home.html'>News</a></h4>
+            <h4><a href='./home.html'>Educational</a></h4>
+            <h4><a href='./home.html'>Events</a></h4>
+            <h4><a href='./home.html'>Online Store</a></h4>
+            <h4><a href='./home.html'>Contact</a></h4>
+
+        </div>
+
+    </div>
+    <div class="mainimg">
+
+        <img src="https://thumbs.dreamstime.com/b/islamic-mosque-background-generative-ai-design-instagram-facebook-wall-painting-image-wallpaper-photo-art-backgrounds-324131921.jpg"
+            alt="image" style="width:100vw;;height:650px;;">
+        <div class="textDiv">
+            <p class="firstpara"><img src="https://png.pngtree.com/png-clipart/20220611/ourmid/pngtree-location-pin-icon-3d-gold-color-png-image_4959981.png"alt="image" style="width: 15px;;height:15px;;">At-taqwa Masjid & Islamic Center, Kumarpara, Sylhet</p>
+            <h1>A reliable Islamic<br>Center to Follow the<br>Qur'an & Sunnah</h1>
+            <p class="secondpara1">salat is the home when the meeting with allah and the <br>ascention (Mi'raj) of the believer taken place
+            </p>
+        </div>
+
+    </div>
+    <div class="centertext">
+        <h1>Programs of At-taqwa Masjid <br> &Islamic Reasearch Center</h1> 
+    </div>
+    
+      </div>
+      </div>
+      <div class="bottomcard">
+      <div class="news">
+        <a href='./home1.html'>
+        <img src="https://cdn-icons-png.flaticon.com/512/5635/5635719.png" alt="" width="50%" height="50%">
+        <h5>News/Blogs</h5>
+    </a>  
+    </div>
+    <div class="husna">
+        <a href='./home1.html'>
+        <img src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png" alt="" width="50%" height="50%">
+        <h5>Asmasul Husna</h5>
+    </a>  
+    </div>
+    <div class="events">
+        <a href='./home1.html'>
+        <img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678116-calendar-512.png" alt="" width="50%" height="50%">
+        <h5>Events</h5>
+    </a>  
+    </div>
+    <div class="donation">
+        <a href='./home1.html'>
+        <img src="https://cdn-icons-png.flaticon.com/512/6203/6203343.png" alt="" width="50%" height="50%">
+        <h5>Donation</h5>
+    </a>  
+    </div>
+</div>
+<div class="bottomcard1">
+    <div class="social">
+        <a href='./home1.html'>
+        <img src="https://cdn-icons-png.flaticon.com/512/9830/9830736.png" alt="" width="50%" height="50%">
+        <h5>Social Service</h5>
+    </a>  
+    </div>
+    <div class="organic">
+        <a href='./home1.html'>
+        <img src="https://cdn-icons-png.flaticon.com/512/2700/2700487.png" alt="" width="50%" height="50%">
+        <h5>Organic Food</h5>
+    </a>  
+    </div>
+    <div class="islamic">
+        <a href='./home1.html'>
+        <img src="https://cdn-icons-png.flaticon.com/512/4969/4969682.png" alt="" width="50%" height="50%">
+        <h5>Islamic Shop</h5>
+    </a>  
+    </div>
+    <div class="library">
+        <a href='./home1.html'>
+        <img src="https://cdn-icons-png.flaticon.com/512/9043/9043296.png" alt="" width="50%" height="50%">
+        <h5>Islamic Library</h5>
+    </a>  
+    </div>
+</div>
+
+
+
+   
+
+
+
+
+</body>
+
+</html>
