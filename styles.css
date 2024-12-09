@@ -1,0 +1,598 @@
+body{
+    width: 100vw;
+    height: 100%;
+}
+.navdiv {
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 50px;
+}
+
+.imagelogo {
+    margin-right: 230px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainimg {
+    float: left;
+    float: right;
+    position: relative;
+}
+
+.textDiv {
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.secondpara1
+{
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.firstpara{
+    font-size: small;
+    margin-left: 10px;
+    margin-bottom: -20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(166, 98, 168, 0.884);
+    opacity: .7;
+    border-radius: 50px;
+    width: 350px;
+    height: 20px;
+}
+.centertext{
+margin-left: 450px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top: 700px;
+    
+
+}
+.news{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.news a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.news img{
+    margin-top: -70px;
+}
+
+.news:hover{
+    background-color: rgb(55, 156, 109);
+}
+
+.husna{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.husna a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.husna img{
+    margin-top: -70px;
+}
+
+.husna:hover{
+    background-color: rgb(55, 156, 109);
+}
+.events{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.events a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.events img{
+    margin-top: -70px;
+}
+
+.events:hover{
+    background-color: rgb(55, 156, 109);
+}
+.donation{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.donation a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.donation img{
+    margin-top: -70px;
+}
+
+.donation:hover{
+    background-color: rgb(55, 156, 109);
+}
+.social{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.social a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.social img{
+    margin-top: -70px;
+}
+
+.social:hover{
+    background-color: rgb(55, 156, 109);
+}
+.organic{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.organic a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.organic img{
+    margin-top: -70px;
+}
+
+.organic:hover{
+    background-color: rgb(55, 156, 109);
+}
+.islamic{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.islamic a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.islamic img{
+    margin-top: -70px;
+}
+
+.islamic:hover{
+    background-color: rgb(55, 156, 109);
+}
+.library{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.library a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.library img{
+    margin-top: -70px;
+}
+
+.library:hover{
+    background-color: rgb(55, 156, 109);
+}
+.bottomcard{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.bottomcard1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+@media screen and (min-width: 1080px) and (max-width: 2550px) {
+    /* Big Screen Size Adjustment */
+}
+
+.navdiv {
+
+    display: flex;
+    margin-left: 60px;
+    gap: 75px;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 50px;
+}
+
+.imagelogo {
+    margin-right: 230px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainimg {
+    float: left;
+    float: right;
+    position: relative;
+}
+
+.textDiv {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.secondpara1
+{
+    font-size: medium;
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.firstpara{
+    font-size: small;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(166, 98, 168, 0.884);
+    opacity: .7;
+    border-radius: 50px;
+    width: 350px;
+    height: 20px;
+}
+.centertext{
+margin-left: 700px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top: 1000px;
+    
+
+}
+.news{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.news a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.news img{
+    margin-top: -70px;
+}
+
+.news:hover{
+    background-color: rgb(55, 156, 109);
+}
+
+.husna{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.husna a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.husna img{
+    margin-top: -70px;
+}
+
+.husna:hover{
+    background-color: rgb(55, 156, 109);
+}
+.events{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.events a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.events img{
+    margin-top: -70px;
+}
+
+.events:hover{
+    background-color: rgb(55, 156, 109);
+}
+.donation{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.donation a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.donation img{
+    margin-top: -70px;
+}
+
+.donation:hover{
+    background-color: rgb(55, 156, 109);
+}
+.social{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.social a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.social img{
+    margin-top: -70px;
+}
+
+.social:hover{
+    background-color: rgb(55, 156, 109);
+}
+.organic{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.organic a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.organic img{
+    margin-top: -70px;
+}
+
+.organic:hover{
+    background-color: rgb(55, 156, 109);
+}
+.islamic{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.islamic a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.islamic img{
+    margin-top: -70px;
+}
+
+.islamic:hover{
+    background-color: rgb(55, 156, 109);
+}
+.library{
+    background-color: rgb(194, 194, 204) ;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px; */
+
+}
+.library a{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.library img{
+    margin-top: -70px;
+}
+
+.library:hover{
+    background-color: rgb(55, 156, 109);
+}
+.bottomcard{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.bottomcard1{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 60px;
+}
+.firstbg{
+    background-color: rgb(105, 105, 105);
+    width: 100%;
+    height: 100vh;
+}
+
