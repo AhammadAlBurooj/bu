@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     width: 100vw;
     height: 100%;
@@ -35,23 +41,23 @@ a {
 
 .textDiv {
     position: absolute;
-    top: 90px;
+    top: 150px;
     left: 200px;
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 .secondpara1
 {
     font-size: medium;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .firstpara{
     font-size: small;
     margin-left: 10px;
-    margin-bottom: -20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgba(166, 98, 168, 0.884);
+    margin-bottom: 20px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(158, 255, 166, 0.884);
     opacity: .7;
     border-radius: 50px;
     width: 350px;
@@ -59,8 +65,8 @@ a {
 }
 .centertext{
 margin-left: 450px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-margin-top: 700px;
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top: 1000px;
     
 
 }
@@ -292,9 +298,58 @@ margin-top: 700px;
     gap: 50px;
     margin-top: 60px;
 }
-@media screen and (min-width: 1080px) and (max-width: 2550px) {
-    /* Big Screen Size Adjustment */
+.navdiv h4:active {
+    background-color: red;
+  }
+  .firstbg{
+background-color: rgb(160, 255, 247);
+height: 250vh;
+position:relative
+/* overflow: scroll; */
+  }
+  .secondbg{
+    width: 900px;
+    height: 1200px;
+    margin-left: 200px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+  }
+  .title99{
+   margin-top: 20px;
+   margin-left: 20px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .paragraph{
+    margin-top: 50px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse:collapse;
+    width: 800px;
+    margin-left: 50px;
+  }
+  
+  td, .row {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #b5b5b5;
+  }
+  .tabletitle{
+    border: none;
 
+  }
+  th{
+    color: #dddddd;
+
+  }
+
+@media screen and (min-width: 2000px) and (max-width: 2550px) {
+    /* Big Screen Size Adjustment */
     .navdiv {
 
         display: flex;
@@ -334,20 +389,20 @@ margin-top: 700px;
         top: 200px;
         left: 200px;
         font-size: 25px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
     }
     .secondpara1
     {
         font-size: medium;
         margin-top: 50px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     .firstpara{
         font-size: small;
         margin-left: 10px;
-        margin-bottom: 40px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-bottom: 10px;
+        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         background-color: rgba(166, 98, 168, 0.884);
         opacity: .7;
         border-radius: 50px;
@@ -355,8 +410,8 @@ margin-top: 700px;
         height: 20px;
     }
     .centertext{
-    margin-left: 700px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 750px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 1000px;
         
     
@@ -594,6 +649,9 @@ margin-top: 700px;
         width: 100%;
         height: 100vh;
     }
+    a:active {
+        background-color: red;
+      }
     
     
 }
