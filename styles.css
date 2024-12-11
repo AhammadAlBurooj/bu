@@ -303,13 +303,14 @@ margin-top: 1000px;
   }
   .firstbg{
 background-color: rgb(160, 255, 247);
-height: 250vh;
+height: 850vh;
 position:relative
 /* overflow: scroll; */
   }
   .secondbg{
+    border-radius: 15px;
     width: 900px;
-    height: 1200px;
+    height: 5300px;
     margin-left: 200px;
     background-color: white;
     position: absolute;
@@ -318,7 +319,7 @@ position:relative
   .title99{
    margin-top: 20px;
    margin-left: 20px;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .paragraph{
     margin-top: 50px;
@@ -348,7 +349,7 @@ position:relative
 
   }
 
-@media screen and (min-width: 2000px) and (max-width: 2550px) {
+@media screen and (min-width: 1800px) and (max-width: 2550px) {
     /* Big Screen Size Adjustment */
     .navdiv {
 
