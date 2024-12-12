@@ -12,7 +12,17 @@ body{
 
     display: flex;
     gap: 50px;
-    justify-content: center;
+    margin-top: 10px;
+    margin-left: -140px;
+}
+/*second page topbar*/
+.navdiv1 {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 16px;
+
 }
 
 .topBar {
@@ -20,11 +30,16 @@ body{
     align-items: center;
     justify-content: left;
     height: 50px;
+    gap: 200px;
 }
 
-.imagelogo {
-    margin-right: 230px;
+.imagelogo img{
+    width: 20%;
+    margin-left: 20px;
+    /* height: 100%; */
+    /* margin-right: 230px;
     margin-left: 10px;
+    margin-top: 25px; */
 }
 
 a {
@@ -64,9 +79,10 @@ a {
     height: 20px;
 }
 .centertext{
-margin-left: 450px;
+margin-left: 250px;
 font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 margin-top: 1000px;
+font-size: 13px;
     
 
 }
@@ -291,6 +307,7 @@ margin-top: 1000px;
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-top: 40px;
 }
 .bottomcard1{
     display: flex;
@@ -298,13 +315,11 @@ margin-top: 1000px;
     gap: 50px;
     margin-top: 60px;
 }
-.navdiv h4:active {
-    background-color: red;
-  }
   .firstbg{
-background-color: rgb(160, 255, 247);
-height: 850vh;
-position:relative
+background-color: rgb(81, 153, 148);
+height: 820vh;
+position:relative;
+margin-top: 10px;
 /* overflow: scroll; */
   }
   .secondbg{
@@ -348,29 +363,47 @@ position:relative
     color: #dddddd;
 
   }
+  .activeClass{
+    background-color: red;
+
+  }
+
 
 @media screen and (min-width: 1800px) and (max-width: 2550px) {
     /* Big Screen Size Adjustment */
     .navdiv {
 
         display: flex;
-        margin-left: 60px;
-        gap: 75px;
-        justify-content: center;
-        font-size: 25px;
+        margin-left: 170px;
+        gap: 50x;
+        font-size:25px;
+        margin-bottom: 40px;
         
     }
+    /*second page topbar*/
+.navdiv1 {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    margin-left: 400px;
+    font-size: 25px;
+
+}
     
     .topBar {
         display: flex;
         align-items: center;
-        justify-content: left;
+        justify-content: left;gap: 10px;
         height: 50px;
+        margin-top: 40px;
+
     }
     
-    .imagelogo {
-        margin-right: 230px;
-        margin-left: 10px;
+    .imagelogo img {
+        width: 40%;
+        margin-top: -30px;
+
+        
     }
     
     a {
@@ -411,9 +444,10 @@ position:relative
         height: 20px;
     }
     .centertext{
-    margin-left: 750px;
+    margin-left: 360px;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 1000px;
+    margin-top: 1000px; 
+    font-size: 20px;
         
     
     }
@@ -638,21 +672,58 @@ position:relative
         display: flex;
         justify-content: center;
         gap: 200px;
+        margin-top: 90px;
     }
     .bottomcard1{
         display: flex;
         justify-content: center;
         gap: 200px;
-        margin-top: 60px;
+        margin-top: 100px;
     }
     .firstbg{
-        background-color: rgb(105, 105, 105);
+        background-color: rgb(81, 153, 148);
         width: 100%;
-        height: 100vh;
+        height: 910vh;
     }
-    a:active {
-        background-color: red;
+    .secondbg{
+        border-radius: 15px;
+        width: 1500px;
+        height: 8800px;
+        margin-left: 200px;
+        background-color: white;
+        position: absolute;
+        top: 50px;
+        
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse:collapse;
+        width: 1400px;
+        margin-left: 50px;
       }
+      
+      td, .row {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 15px;
+        font-size: 23px;
+      }
+      
+      tr:nth-child(odd) {
+        background-color: #b5b5b5;
+      }
+      .tabletitle{
+        border: none;
+    
+      }
+      th{
+        color: #dddddd;
+    
+      }
+      .title99{
+        font-size: 25px;
+      }
+
     
     
 }
