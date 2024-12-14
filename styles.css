@@ -80,10 +80,9 @@ a {
     font-size: 20px;
 }
 .asmaul{
-    /* margin-top: -80px; */
-    width: 100%;
+
+    width: 100px;
     border: 1px solid red;
-    /* display: flex; */
 }
 .asmaul p{
     background-color: rgb(0, 158, 119);
@@ -800,6 +799,7 @@ margin-top: -5px;
         top: 778px;
         font-size: 50px;
       }
+   
       .husna99text {
         position: absolute;
         top: 270px;
@@ -811,9 +811,12 @@ margin-top: -5px;
     }
     .blog{
         background-color: rgb(0, 158, 119);
+        width: 250px;
+        height: 80px;
+        margin-top: 10px;
         position: absolute;
         bottom: 0px; 
-        right: 1px;
+        right: 0px;
         font-size: 60px;
         color: #dddddd;
         border-top-left-radius: 9px;
@@ -825,11 +828,11 @@ margin-top: -5px;
     .blog h4{
         /* margin-top: -80px; */
         width: 100%;
+        margin-left: 40px;
+        margin-top: 5px;
         /* display: flex; */
   
       
-
-    
     
 }
 
