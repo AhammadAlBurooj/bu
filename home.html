@@ -18,13 +18,13 @@
         </div>
 
         <div class="navdiv">
-            <h4><a href='./home.html'>Home</a></h4>
-            <h4><a href='./home.html'>About us</a></h4>
-            <h4><a href='./home.html'>News</a></h4>
-            <h4><a href='./home.html'>Educational</a></h4>
-            <h4><a href='./home.html'>Events</a></h4>
-            <h4><a href='./home.html'>Online Store</a></h4>
-            <h4><a href='./home.html'>Contact</a></h4>
+            <h4><a onclick="handleActive(event,'homeActive')" class="homeActive activeClass" href='./home.html'>Home</a></h4>
+            <h4><a onclick="handleActive(event,'aboutActive')" class="aboutActive" href='./home.html'>About us</a></h4>
+            <h4><a onclick="handleActive(event,'newsActive')" class="newsActive" href='./home.html'>News</a></h4>
+            <h4><a onclick="handleActive(event,'eduActive')" class="eduActive" href='./home.html'>Educational</a></h4>
+            <h4><a onclick="handleActive(event,'eventsActive')" class="eventsActive" href='./home.html'>Events</a></h4>
+            <h4><a onclick="handleActive(event,'onlineActive')" class="onlineActive" href='./home.html'>Online Store</a></h4>
+            <h4><a onclick="handleActive(event,'contactActive')" class="contactActive" href='./home.html'>Contact</a></h4>
 
         </div>
 
@@ -110,7 +110,7 @@
         </div>
     </div>
 
-    <script>
+    <!-- <script>
 
         const home = document.getElementsByClassName('home')
         console.log(home);
@@ -123,9 +123,8 @@
 
         }
 
-    </script>
-
-
+    </script> -->
+    <script src="./active.js"></script>
 
 
 

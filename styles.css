@@ -407,7 +407,8 @@ margin-top: -5px;
 
   }
   .activeClass{
-    background-color: red;
+    background-color: rgb(2, 255, 129);
+    border-radius: 10px;
 
   }
   .husnaimage img{
@@ -880,6 +881,21 @@ margin-top: -5px;
             color: #dddddd;
             border-top-left-radius: 30px;
             text-align: center;
+        }
+        .blogimage img{
+            width: 1000vw;
+            height: 750px;
+            
+          }
+          
+          .blogtext {
+            position: absolute;
+            top: 270px;
+            left: 100px;
+            font-size: 30px;
+            color: aliceblue;
+            font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
         }
   
       
