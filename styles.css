@@ -440,30 +440,55 @@ margin-top: -5px;
   
 
 }
-  /* .blog{
-    background-color: rgb(0, 158, 119);
+          
+.blogtext {
     position: absolute;
-    top: 895px;
+    top: 170px;
+    left: 100px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+} 
+ .newscontainer{
+    width: 100%;
+    height: 5000px;   
+
+ }
+ .blogimage img{
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    border-bottom: 6px solid rgb(0, 158, 119);
+
+
+ }
+ .blogpara{
+    font-size: 15px;
+ }
+ .blog{
+
+    width: 100px;
+    border: 1px solid red;
+}
+.blog p{
+    background-color: rgb(0, 158, 119);
+   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    height: 70px;
+    margin-top: -54px;
+    position: absolute;
+    top: 528px;
     right: 1px;
-    font-size: 40px;
+    font-size: 50px;
     color: #dddddd;
-    border-top-left-radius: 9px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-    
+    border-top-left-radius: 30px;
+    text-align: center;
+
+
+
 
 }
-.blog h4{
-    /* margin-top: -80px; */
-    /* width: 100%; */
-    /* display: flex; */
-
-  
-
-
-
-/* } */ 
-
 
 @media screen and (min-width: 1600px) and (max-width: 2550px) {
     /* Big Screen Size Adjustment */
@@ -839,7 +864,7 @@ margin-top: -5px;
     
     }
     .home{
-        background-color: rgb(0, 158, 119);
+        background-color:(0, 158, 119) rgb;
         width: 250px;
         height: 80px;
         margin-bottom: -60px;
@@ -882,11 +907,6 @@ margin-top: -5px;
             border-top-left-radius: 30px;
             text-align: center;
         }
-        .blogimage img{
-            width: 1000vw;
-            height: 750px;
-            
-          }
           
           .blogtext {
             position: absolute;
@@ -896,9 +916,45 @@ margin-top: -5px;
             color: aliceblue;
             font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         
+        } 
+         .newscontainer{
+            width: 100%;
+            height: 5000px;   
+
+         }
+         .blogimage img{
+            position: relative;
+            width: 100vw;
+            height: 800px;
+            border-bottom: 6px solid rgb(0, 158, 119);
+
+
+         }
+         .blogpara{
+            font-size: 20px;
+         }
+         .blog{
+
+            width: 100px;
+            border: 1px solid red;
         }
+        .blog p{
+            background-color: rgb(0, 158, 119);
+           font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 320px;
+            height: 90px;
+            margin-top: 265px;
+            position: absolute;
+            top: 528px;
+            right: 1px;
+            font-size: 70px;
+            color: #dddddd;
+            border-top-left-radius: 30px;
+            text-align: center;
   
       
     
+
+}
 
 }
